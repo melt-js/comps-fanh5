@@ -1,0 +1,102 @@
+{
+  "app": {
+    "name": "comps-fanh5",
+    "app_group_name": "comps-fanh5",
+    "git_repo_url": "",
+    "online_version": "2026.11.24-2",
+    "build_version": "2026.11.24-2",
+    "platform": "unpkg",
+    "create_at": "2026-11-26T05:17:45.356Z"
+  },
+  "version": {
+    "plugin_ver": "5.4.3",
+    "extract_mode": "build",
+    "sub_app_name": "comps-fanh5",
+    "sub_app_version": "comps-fanh5@2026.11.24-2",
+    "version_tag": "2026.11.24-2",
+    "src_map": {
+      "webDirPath": "/comps-fanh5/hel_dist",
+      "htmlIndexSrc": "/comps-fanh5/hel_dist/index.html",
+      "extractMode": "all",
+      "iframeSrc": "",
+      "chunkCssSrcList": [
+        "/comps-fanh5/hel_dist/assets/style-DSqjJtnG.css"
+      ],
+      "chunkJsSrcList": [
+        "/comps-fanh5/hel_dist/assets/index-_1P1HjTR.js",
+        "/comps-fanh5/hel_dist/assets/_virtual_comps-fanh5-uno-CskvVObm.js",
+        "/comps-fanh5/hel_dist/assets/shared-runtime-RWKxtomL.js",
+        "/comps-fanh5/hel_dist/assets/vendor-BnJiPvVu.js"
+      ],
+      "staticCssSrcList": [],
+      "staticJsSrcList": [
+        "https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js"
+      ],
+      "relativeCssSrcList": [],
+      "relativeJsSrcList": [],
+      "headAssetList": [
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js"
+          }
+        },
+        {
+          "tag": "script",
+          "append": true,
+          "attrs": {
+            "src": "/comps-fanh5/hel_dist/assets/index-_1P1HjTR.js",
+            "type": "module",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-fanh5/hel_dist/assets/_virtual_comps-fanh5-uno-CskvVObm.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-fanh5/hel_dist/assets/shared-runtime-RWKxtomL.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-fanh5/hel_dist/assets/vendor-BnJiPvVu.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-fanh5/hel_dist/assets/style-DSqjJtnG.css",
+            "rel": "stylesheet",
+            "crossorigin": ""
+          }
+        }
+      ],
+      "bodyAssetList": [],
+      "otherSrcList": [
+        "/comps-fanh5/hel_dist/index.html"
+      ],
+      "srvModSrcList": [],
+      "srvModSrcIndex": ""
+    },
+    "html_content": "<!doctype html>\n<!-- hel-standalone：给调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"zh-CN\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-fanh5</title>\n    <!--\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\n      使用宿主自己在入口注入的那一份，避免双实例（双 vue）。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"></script>\n    <script type=\"module\" crossorigin src=\"/comps-fanh5/hel_dist/assets/index-_1P1HjTR.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fanh5/hel_dist/assets/_virtual_comps-fanh5-uno-CskvVObm.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fanh5/hel_dist/assets/shared-runtime-RWKxtomL.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fanh5/hel_dist/assets/vendor-BnJiPvVu.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-fanh5/hel_dist/assets/style-DSqjJtnG.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+    "create_at": "2026-11-26T05:17:45.356Z",
+    "desc": "this version meta is created by hel-dev-utils@5.4.3"
+  }
+}
